@@ -15,6 +15,7 @@ Pre-requisites
 --------------
 
 * Docker Toolbox: https://docs.docker.com/toolbox/overview/
+* PHP Composer: https://getcomposer.org/ 
 
 Usage Example
 ---------------------
@@ -27,10 +28,15 @@ Sample app in the ``example`` folder.
 
     # Run the unit tests in different versions:
 
+    composer update
+
     docker-compose run php54 phpunit
 
     docker-compose run php55 phpunit
 
     docker-compose run php56 phpunit
+
+    docker-compose run hhvm phpunit
+
 
 Also, see ``example/docker-compose.yml``.
