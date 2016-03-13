@@ -1,0 +1,15 @@
+{
+    "name": "DockerMultiPHP/Example",
+    "description": "Example Test",
+    "license": "MIT",
+    "keywords": ["docker", "multi", "php", "versions"],
+    "authors": [
+        {
+            "name": "Ardy Dedase",
+            "email": "ardy.dedase@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    }
+}

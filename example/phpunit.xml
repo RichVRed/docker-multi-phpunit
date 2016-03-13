@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    phpunit configuration file
+
+    phpunit -c phpunit.xml
+         bootstrap="src/autoload.php"
+-->
+<phpunit backupGlobals="false"
+         bootstrap="vendor/autoload.php"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false">
+    <testsuites>
+        <testsuite name="Example Test">
+            <directory suffix=".php">./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
